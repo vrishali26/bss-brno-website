@@ -1,12 +1,60 @@
-# React + Vite
+# In Bhartiy Sanskrutik Sangha Brno
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cultural website for **Bhartiy Sanskrutik Sangha Brno**, showcasing Indian festivals, cultural events, and activities organized in Brno, Czech Republic.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 🏠 **Home Page**  
+- 📖 **About Page** 
+- 📸 **Gallery Page**
+- 🎉 **Events Page**
+- 📍 **Contact Page**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tech Stack
+- **React** (Frontend)  
+- **Tailwind CSS** (Styling)  
+- **react-responsive-carousel** (Image carousel)  
+- **AOS (Animate On Scroll)** (Animations)  
+- **Google Maps Embed**  
+
+---
+
+## 🛠️ Installation & Setup
+
+Clone the repository:
+```bash
+git clone https://github.com/your-username/bss-brno-website.git
+cd bss-brno-website
+```
+
+Install dependencies:
+```bash
+npm install
+```
+
+Run the development server:
+```bash
+npm start
+```
+
+Build for production:
+```bash
+npm run build
+```
+---
+
+## 📂 Project Structure
+```bash
+src/
+ ├── common/       # Reusable UI components
+ ├── pages/        # Home, Gallery, Contact, Events
+ ├── data/         # Static data for events/gallery
+ ├── assets/       # Images, icons, motifs
+ ├── App.jsx       # Main app entry
+ └── main.jsx      # React DOM entry point
+
+```
+---
