@@ -1,5 +1,5 @@
 import React, { Suspense, lazy  } from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import HomePage from './pages/HomePage';
 import ContactPage from './pages/ContactPage';

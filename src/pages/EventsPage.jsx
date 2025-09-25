@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import eventImage from "../assets/hero.png";
 
 const EventsPage = () => {
     useEffect(() => {
@@ -32,22 +33,19 @@ const EventsPage = () => {
             id: 1,
             title: "Ganpati Festival 2025",
             description: "A brief description about Event 1 highlighting what made it memorable.",
-            image: "/events/events.png",
-            galleryLink: "/gallery",
+            galleryLink: "/bss-brno-website/#/gallery",
         },
         {
             id: 2,
             title: "Indi Fest 2025 - an open air event",
             description: "A brief description about Event 2 highlighting its significance.",
-            image: "/events/events.png",
-            galleryLink: "/gallery",
+            galleryLink: "/bss-brno-website/#/gallery",
         },
         {
             id: 3,
             title: "Diwali & Guru Purab Celebration 2024",
             description: "A brief description about Event 3, showing the highlights and excitement.",
-            image: "/events/events.png",
-            galleryLink: "/gallery",
+            galleryLink: "/bss-brno-website/#/gallery",
         },
     ];
     return (
@@ -102,7 +100,7 @@ const EventsPage = () => {
                         <a href={event.galleryLink}>
                             <div className="overflow-hidden">
                                 <img
-                                    src={event.image}
+                                    src={eventImage}
                                     alt={event.title}
                                     className="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-150 group-hover:rotate-2"
                                 />
