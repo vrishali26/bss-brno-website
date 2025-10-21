@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import AwardBanner from '../components/AwardBanner';
 
 const HomePage = () => {
     useEffect(() => {
@@ -18,6 +19,14 @@ const HomePage = () => {
     return (
         <div className="w-full">
             <Hero />
+
+            <section className="mt-8 px-4">
+                <AwardBanner
+                    awardName="ICFF Ratna Award (most active Indian association)"
+                    organization="Bhartiya Sanskritik Sangh Brno"
+                    year={2025}
+                />
+            </section>
 
             <section className="mt-8 py-16 bg-gradient-to-b from-orange-50 to-white">
                 <div className="container mx-auto px-4 text-center">
@@ -64,7 +73,7 @@ function Hero() {
         <section className="bg-[url('./assets/hero.png')] bg-cover bg-center overflow-hidden shadow-inner">
             <div className="bg-black/30 px-6 py-16">
                 <div className="container mx-auto text-white">
-                    <h1 className="text-5xl font-bold animate-fade-in-down">Bhartiay Sanskrutik Sangha</h1>
+                    <h1 className="text-5xl font-bold animate-fade-in-down">Bhartiya Sanskritik Sangh</h1>
                     <p className="mt-3 max-w-2xl">A community organisation dedicated to preserving, teaching and celebrating our rich cultural heritage through music, dance, language and festivals.</p>
                     <div className="mt-6" data-aos="fade-up">
                         <Link to="/events" className="inline-block px-5 py-3 bg-white text-orange-600 rounded-md font-semibold">View Events</Link>

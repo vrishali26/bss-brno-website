@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="bg-white border-t w-full">
       <div className="max-w-screen-xl mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex flex-col text-sm text-slate-600">
-          <span>© {new Date().getFullYear()} Bhartiay Sanskrutik Sangha, Brno. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Bhartiya Sanskritik Sangh, Brno. All rights reserved.</span>
           <span>Designed & Developed by <span className="font-semibold"><a href="https://vrishali-portfolio.vercel.app/" target="blank">Vrishali Joshi</a></span>.</span>
         </div>
         <div className="flex gap-3">
@@ -24,7 +24,7 @@ const Footer = () => {
 
           {/* Instagram */}
           <a
-            href="https://www.facebook.com/profile.php?id=61551816197970&locale=cs_CZ"
+            href="https://www.instagram.com/bhartiyasanskritiksangh?igsh=dWUzdDB1cDdkMmRm"
             target="_blank"
             rel="noopener noreferrer"
             className="text-pink-500 hover:scale-110 transition-transform"

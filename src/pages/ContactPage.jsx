@@ -67,8 +67,8 @@ const ContactPage = () => {
                             data-aos="fade-up"
                             data-aos-delay="200"
                         >
-                            <h3 className="text-xl font-semibold mb-2">Phone</h3>
-                            <p><span>+420 775 549 192</span></p>
+                            <h3 className="text-xl font-semibold mb-2">Databox ID</h3>
+                            <p><span>2vj86zs</span></p>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@ const ContactPage = () => {
             </section>
 
             {/* Contact Form */}
-            <section className="py-16 bg-orange-50">
+            {/* <section className="py-16 bg-orange-50">
                 <div className="container mx-auto px-4 max-w-2xl" data-aos="fade-up">
                     <h2 className="text-3xl font-bold mb-6 text-center">Send Us a Message</h2>
                     <form className="space-y-4">
@@ -115,7 +115,7 @@ const ContactPage = () => {
                         </button>
                     </form>
                 </div>
-            </section>
+            </section> */}
 
             {/* Decorative Elements (floating) */}
             <div className="absolute top-1/3 left-5 w-20 h-20 bg-orange-200 rounded-full opacity-30 animate-pulse"></div>

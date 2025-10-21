@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import eventImage from "../assets/hero.png";
+import Ganpati2025 from "../assets/events/past/Ganpati2025.jpg";
+import IndiFest2025 from "../assets/events/past/IndiFest2025.jpg";
+import Diwali2024 from "../assets/events/past/Diwali2024.jpg";
 
 const EventsPage = () => {
     useEffect(() => {
@@ -21,7 +23,9 @@ const EventsPage = () => {
                     🎉 Free Entry | All Are Welcome<br />
                     👗 Dress in your festive best and bring your brightest smiles!<br /><br />
                     Let's light up the night together 🌟<br />
-                    Tag your squad and spread the joy!</>)
+                    Tag your squad and spread the joy! <br/>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScCH-Kv1MBFEgjsIhkEWez2P6si-I6_8Mqp_FAqQ37ZsMTWgA/viewform" target="_blank" className="text-orange-600 underline">Register Here</a>
+                    </>)
         },
     ]
     const [expandedId, setExpandedId] = React.useState(null)
@@ -32,20 +36,23 @@ const EventsPage = () => {
         {
             id: 1,
             title: "Ganpati Festival 2025",
-            description: "A brief description about Event 1 highlighting what made it memorable.",
+            description: "Celebrating the arrival of Lord Ganesha with devotion and joy.",
             galleryLink: "/bss-brno-website/#/gallery",
+            imgSrc: Ganpati2025
         },
         {
             id: 2,
             title: "Indi Fest 2025 - an open air event",
-            description: "A brief description about Event 2 highlighting its significance.",
+            description: "FIRST-EVER open-air IndiFest right in the heart of the city - Zelný Trh | 24th May | 3 PM onwards!",
             galleryLink: "/bss-brno-website/#/gallery",
+            imgSrc: IndiFest2025
         },
         {
             id: 3,
             title: "Diwali & Guru Purab Celebration 2024",
-            description: "A brief description about Event 3, showing the highlights and excitement.",
+            description: "Festival of lights and honoring the teachings of Guru Nanak Dev Ji.",
             galleryLink: "/bss-brno-website/#/gallery",
+            imgSrc: Diwali2024
         },
     ];
     return (
@@ -100,7 +107,7 @@ const EventsPage = () => {
                         <a href={event.galleryLink}>
                             <div className="overflow-hidden">
                                 <img
-                                    src={eventImage}
+                                    src={event.imgSrc}
                                     alt={event.title}
                                     className="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-150 group-hover:rotate-2"
                                 />

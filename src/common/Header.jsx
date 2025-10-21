@@ -17,7 +17,7 @@ const Header = () => {
                 <Link to="/" className="flex items-center gap-3">
                     <div className="bg-[url('assets/logo.png')] bg-cover bg-center rounded-xl overflow-hidden shadow-inner w-12 h-12 rounded-full bg-orange-500 flex items-center justify-center text-white font-bold">&nbsp;</div>
                     <div>
-                        <div className="text-sm sm:text-lg font-semibold">Bhartiay Sanskrutik Sangha, Brno</div>
+                        <div className="text-sm sm:text-lg font-semibold">Bhartiya Sanskritik Sangh, Brno</div>
                         <div className="text-sm text-slate-500">Preserving & Celebrating Culture</div>
                     </div>
                 </Link>

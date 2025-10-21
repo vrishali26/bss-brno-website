@@ -23,7 +23,7 @@ const AboutPage = () => {
 
             <section className="py-16 bg-gradient-to-b from-orange-50 to-white">
                 <div className="container mx-auto px-4">
-                    <h2 className="text-3xl font-bold mb-8">Bhartiay Sanskrutik Sangha, Brno</h2>
+                    <h2 className="text-3xl font-bold mb-8">Bhartiya Sanskritik Sangh, Brno</h2>
 
                     {/* Tricolor Separator / Accents */}
                     <div className="flex justify-center my-8 relative">
@@ -54,7 +54,7 @@ const AboutPage = () => {
                                 <ul className="text-slate-700 text-sm space-y-1">
                                     <li>Founded: 2023</li>
                                     <li>Members: 150+</li>
-                                    <li>Annual events: 6+</li>
+                                    <li>Annual events: 3+</li>
                                 </ul>
                             </div>
                             <div data-aos="fade-up">
