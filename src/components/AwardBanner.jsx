@@ -38,13 +38,20 @@ const AwardBanner = ({
         >
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-yellow-50 via-white to-emerald-50 shadow-lg ring-1 ring-black/5">
-              <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-6 sm:pl-8">
+              {/* Desktop decorative absolute icon (only on sm and up) */}
+              <div className="pointer-events-none absolute inset-y-0 left-0 hidden sm:flex items-center pl-6 sm:pl-8">
                 <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-amber-400 to-amber-500 text-white shadow-md">
                   <Trophy className="h-7 w-7" aria-hidden />
                 </div>
               </div>
 
               <div className="flex items-center gap-4 px-6 py-4 sm:py-5 sm:pl-28">
+                {/* Inline icon for small screens */}
+                <div className="flex-shrink-0 sm:hidden">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-amber-500/90 text-white shadow-sm">
+                    <Trophy className="h-5 w-5" aria-hidden />
+                  </div>
+                </div>
                 <div className="flex-1 min-w-0">
                   <p className="text-sm font-semibold uppercase text-amber-700 tracking-wide">
                     Winner — {awardName}

@@ -115,9 +115,9 @@ export const galleryData = {
       diwali24_12
     ] }
   ],
-  2023: [
-    { event: "Ganpati", highlight: IndiFest2025, images: [ganpati2023] },
-    { event: "Navratri", highlight: IndiFest2025, images: [navratri2023] },
-    { event: "Diwali", highlight: IndiFest2025, images: [diwali2023] },
-  ],
+  // 2023: [
+  //   { event: "Ganpati", highlight: IndiFest2025, images: [] },
+  //   { event: "Navratri", highlight: IndiFest2025, images: [] },
+  //   { event: "Diwali", highlight: IndiFest2025, images: [] },
+  // ],
 };
