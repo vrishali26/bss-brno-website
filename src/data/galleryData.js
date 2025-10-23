@@ -1,6 +1,8 @@
 // src/data/galleryData.js
 import Ganpati1 from "../assets/gallery/2025/Ganpati/Ganpati1.jpg";
 import Ganpati2 from "../assets/gallery/2025/Ganpati/Ganpati2.jpg";
+import Ganpati3 from "../assets/gallery/2025/Ganpati/Ganpati3.jpg";
+import Ganpati4 from "../assets/gallery/2025/Ganpati/Ganpati4.jpg";
 import Ganpati2025 from "../assets/events/past/Ganpati2025.jpg";
 import IndiFest2025 from "../assets/events/past/IndiFest2025.jpg";
 import indifest25_1 from "../assets/gallery/2025/Indifest/indifest25_1.jpg";
@@ -24,6 +26,8 @@ import indifest25_18 from "../assets/gallery/2025/Indifest/indifest25_18.jpg";
 import indifest25_19 from "../assets/gallery/2025/Indifest/indifest25_19.jpg";
 import indifest25_20 from "../assets/gallery/2025/Indifest/indifest25_20.jpg";
 import indifest25_21 from "../assets/gallery/2025/Indifest/indifest25_21.jpg";
+import indifest25_22 from "../assets/gallery/2025/Indifest/indifest25_22.jpg";
+import indifest25_23 from "../assets/gallery/2025/Indifest/indifest25_23.jpg";
 import Diwali2024 from "../assets/events/past/Diwali2024.jpg";
 import diwali24_1 from "../assets/gallery/2024/Diwali/diwali24_1.jpg";
 import diwali24_2 from "../assets/gallery/2024/Diwali/diwali24_2.jpg";
@@ -48,6 +52,20 @@ import navratri24_7 from "../assets/gallery/2024/Navratri/navratri24_7.jpg";
 import navratri24_8 from "../assets/gallery/2024/Navratri/navratri24_8.jpg";
 import navratri24_9 from "../assets/gallery/2024/Navratri/navratri24_9.jpg";
 import navratri24_10 from "../assets/gallery/2024/Navratri/navratri24_10.jpg";
+import ganpati24_1 from "../assets/gallery/2024/Ganpati/ganpati24_1.jpg";
+import ganpati24_2 from "../assets/gallery/2024/Ganpati/ganpati24_2.jpg";
+import ganpati24_3 from "../assets/gallery/2024/Ganpati/ganpati24_3.jpg";
+import ganpati24_4 from "../assets/gallery/2024/Ganpati/ganpati24_4.jpg";
+import ganpati24_5 from "../assets/gallery/2024/Ganpati/ganpati24_5.jpg";
+import ganpati24_6 from "../assets/gallery/2024/Ganpati/ganpati24_6.jpg";
+import ganpati24_7 from "../assets/gallery/2024/Ganpati/ganpati24_7.jpg";
+import ganpati24_8 from "../assets/gallery/2024/Ganpati/ganpati24_8.jpg";
+import ganpati24_9 from "../assets/gallery/2024/Ganpati/ganpati24_9.jpg";
+import ganpati24_10 from "../assets/gallery/2024/Ganpati/ganpati24_10.jpg";
+import ganpati24_11 from "../assets/gallery/2024/Ganpati/ganpati24_11.jpg";
+import ganpati24_12 from "../assets/gallery/2024/Ganpati/ganpati24_12.jpg";
+import ganpati24_13 from "../assets/gallery/2024/Ganpati/ganpati24_13.jpg";
+import ganpati24_14 from "../assets/gallery/2024/Ganpati/ganpati24_14.jpg";
 
 import diwali2024 from "../assets/hero.png";
 import gurupurab2024 from "../assets/hero.png";
@@ -61,33 +79,48 @@ export const galleryData = {
       event: "Indi Fest", 
       highlight: IndiFest2025,  
       images: [
-        indifest25_1, 
-        indifest25_2, 
+        indifest25_14,
         indifest25_3, 
+        indifest25_2, 
         indifest25_4,
         indifest25_5,
         indifest25_6,
         indifest25_7,
         indifest25_8,
         indifest25_9,
+        indifest25_22,
         indifest25_10,
         indifest25_11,
         indifest25_12,
+        indifest25_1, 
         indifest25_13,
-        indifest25_14,
         indifest25_15,
         indifest25_16,
         indifest25_17,
+        indifest25_23,
         indifest25_18,
         indifest25_19,
         indifest25_20,
         indifest25_21
       ] 
     },
-    { event: "Ganpati", highlight: Ganpati2025, images: [Ganpati1, Ganpati2] },
+    { event: "Ganpati", highlight: Ganpati2025, images: [Ganpati1, Ganpati2, Ganpati3, Ganpati4] },
   ],
   2024: [
-    { event: "Ganpati", highlight: Ganpati2025, images: [Ganpati2] },
+    { event: "Ganpati", highlight: Ganpati2025, images: [ganpati24_1, ganpati24_2, 
+    ganpati24_3,
+    ganpati24_4,
+    ganpati24_5,
+    ganpati24_6,
+    ganpati24_7,
+    ganpati24_8,
+    ganpati24_9,
+    ganpati24_10,
+    ganpati24_11,
+    ganpati24_12,
+    ganpati24_13,
+    ganpati24_14 
+    ] },
     { event: "Navratri", highlight: navratri2024, images: [
       navratri24_1,
       navratri24_2,
