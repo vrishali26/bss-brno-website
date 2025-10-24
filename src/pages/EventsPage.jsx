@@ -37,21 +37,21 @@ const EventsPage = () => {
             id: 1,
             title: "Ganpati Festival 2025",
             description: "Celebrating the arrival of Lord Ganesha with devotion and joy.",
-            galleryLink: "/bss-brno-website/#/gallery",
+            galleryLink: "/#/gallery",
             imgSrc: Ganpati2025
         },
         {
             id: 2,
             title: "Indi Fest 2025 - an open air event",
             description: "FIRST-EVER open-air IndiFest right in the heart of the city - Zelný Trh | 24th May | 3 PM onwards!",
-            galleryLink: "/bss-brno-website/#/gallery",
+            galleryLink: "/#/gallery",
             imgSrc: IndiFest2025
         },
         {
             id: 3,
             title: "Diwali & Guru Purab Celebration 2024",
             description: "Festival of lights and honoring the teachings of Guru Nanak Dev Ji.",
-            galleryLink: "/bss-brno-website/#/gallery",
+            galleryLink: "/#/gallery",
             imgSrc: Diwali2024
         },
     ];
